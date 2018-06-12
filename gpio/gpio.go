@@ -15,16 +15,17 @@ import (
 const (
 	
     GreenLedPin1 uint8 = 21
-    GreenLedPin2 uint8 = 22
-    GreenLedPin3 uint8 = 23
+    GreenLedPin2 uint8 = 20
+    GreenLedPin3 uint8 = 16
 
-    BlueLedPin1 uint8 = 13
-    BlueLedPin2 uint8 = 15
-    BlueLedPin3 uint8 = 16
+    BlueLedPin1  uint8 = 7
+    BlueLedPin2  uint8 = 8
+    BlueLedPin3  uint8 = 25
 
-    RedLedPin1 uint8 = 10
-    RedLedPin2 uint8 = 11
-    RedLedPin3 uint8 = 12
+    RedLedPin1   uint8 = 24
+    RedLedPin2   uint8 = 23
+    RedLedPin3   uint8 = 18    
+
 )
 
 type CallBackPubGreenLedStatus func(interface{})
